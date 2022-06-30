@@ -1,0 +1,19 @@
+<ion-content class="flex-center" color="success">
+  <div id="container">
+  <ion-card class="card-config">
+    <div class="flex-center">
+      <ion-button href="home" color="medium" fill="clear">
+        <ion-icon name="arrow-back-outline"></ion-icon>
+      </ion-button>
+      <h1 class="title-config">Redefinir senha
+    </h1>
+  </div>
+  <ion-item>
+    <small><ion-label position="floating">Email</ion-label></small>
+    <ion-input type="text" [(ngModel)]="userLogin.email"></ion-input>
+  </ion-item>
+  <ion-button class="btn-config-2" color="medium" shape="round" fill="outline" expand="block" (click)="recuperarSenha()">Enviar</ion-button>
+</ion-card>
+  
+</div>  
+</ion-content>
